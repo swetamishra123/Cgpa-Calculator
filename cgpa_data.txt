@@ -1,0 +1,5 @@
+Course 1: Credits = 2, Grade = 10
+Course 2: Credits = 3, Grade = 7
+Course 3: Credits = 3, Grade = 9
+Course 4: Credits = 3, Grade = 9
+CGPA: 8.63636
