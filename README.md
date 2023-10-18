@@ -31,7 +31,7 @@ Before you can use the CGPA Calculator, you need to have the following:
 1. Clone or download this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/Cgpa-Calculator.git
+   https://github.com/swetamishra123/Cgpa-Calculator.git
    ```
 
 2. Navigate to the project directory.
@@ -117,7 +117,7 @@ If you want to contribute to this project, feel free to fork the repository, mak
 2. Clone your forked repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/Cgpa-Calculator.git
+   https://github.com/swetamishra123/Cgpa-Calculator.git
    ```
 
 3. Create a new branch for your changes.
