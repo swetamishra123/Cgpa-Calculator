@@ -7,8 +7,10 @@ The **CGPA Calculator** is a C++ program that helps students calculate their Cum
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
+- [Output](Output)
 - [Contributing](#contributing)
 - [License](#license)
+
 
 ## Features
 
@@ -53,6 +55,58 @@ Before you can use the CGPA Calculator, you need to have the following:
 5. Follow the on-screen prompts to enter course details (credits and grades) as required.
 
 6. The program will calculate your CGPA and display it on the console. Additionally, the course details and CGPA will be saved to a file named `cgpa_data.txt`.
+
+
+## Output
+Certainly! Let's walk through the detailed output explanation for the CGPA Calculator program. I'll explain each part of the output and what it means.
+
+Let's assume the user has entered information for three courses:
+
+```
+Enter the number of courses: 3
+```
+
+For each course, they have entered credits and grades. Here's an example input:
+
+```
+Enter credits for course 1: 3
+Enter grade for course 1: 4.0
+Enter credits for course 2: 4
+Enter grade for course 2: 3.5
+Enter credits for course 3: 2
+Enter grade for course 3: 3.7
+```
+
+Now, let's break down the output:
+
+1. **Your Cumulative Grade Point Average (CGPA) is:** This is the main output line, indicating the CGPA result that the program calculated.
+
+2. **3.61 (rounded to two decimal places):** This is the CGPA value that the program computed based on the credits and grades provided. In this example, the CGPA is 3.61.
+
+3. **cgpa_data.txt:** This is the name of the text file where the course details and CGPA will be saved.
+
+Now, if you open the `cgpa_data.txt` file, it will contain the following information:
+
+```
+Course 1: Credits = 3, Grade = 4.0
+Course 2: Credits = 4, Grade = 3.5
+Course 3: Credits = 2, Grade = 3.7
+CGPA: 3.61
+```
+
+Here's what each line in the `cgpa_data.txt` file means:
+
+- **Course 1:** This indicates the details for the first course.
+- **Credits = 3:** It shows that the first course had 3 credit hours.
+- **Grade = 4.0:** The user earned a grade of 4.0 for this course.
+
+The same pattern follows for Course 2 and Course 3. Each course is listed with its credits and grade.
+
+- **CGPA: 3.61:** This line indicates the CGPA, which is 3.61 based on the provided course details.
+
+So, the `cgpa_data.txt` file is a record of the user's input and the resulting CGPA.
+
+Please note that this is a simplified example, and in a more comprehensive application, you could enhance the program to handle more features, error-checking, and potentially a user-friendly interface.
 
 ## Contributing
 
