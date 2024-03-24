@@ -86,7 +86,6 @@ Now, let's break down the output:
 3. **cgpa_data.txt:** This is the name of the text file where the course details and CGPA will be saved.
 
 Now, if you open the `cgpa_data.txt` file, it will contain the following information:
-
 ```
 Course 1: Credits = 3, Grade = 4.0
 Course 2: Credits = 4, Grade = 3.5
